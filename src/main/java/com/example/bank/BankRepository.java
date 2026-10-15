@@ -8,4 +8,7 @@ public class BankRepository {
     public double getBalance() {
         return 1000.0;
     }
+    public String getAccountType(String accountNumber) {
+        return "SAVINGS";
+    }
 }

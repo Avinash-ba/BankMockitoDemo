@@ -13,4 +13,7 @@ public class BankService {
     public double getBalance() {
         return bankRepository.getBalance();
     }
+    public String getAccountType(String accountNumber) {
+        return bankRepository.getAccountType(accountNumber);
+    }
 }
